@@ -1,4 +1,9 @@
-== Welcome to Rails
+This sample_app is a learning app by Morgan
+
+Go to morgansampleapp.heroku.com
+
+
+About Rails
 
 Rails is a web-application framework that includes everything needed to create
 database-backed web applications according to the Model-View-Control pattern.
