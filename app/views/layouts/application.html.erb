@@ -13,7 +13,8 @@
       <%= render 'layouts/header' %>
       <section class="round">
         <% flash.each do |key, value| %>
-          <div class="flash <%= key %>"><%= value %></div>
+          <%= content_tag(:div, value, :class => "flash #{key}") %> <!-- Execise 8.6.3; equals and replaces the outcommented line below
+           <div class="flash <%= key %>"><%= value %></div> -->
         <% end %>
         <%= yield %>
       </section>
